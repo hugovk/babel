@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["ubuntu-20.04", "windows-2022", "macos-11"]
+        os: ["ubuntu-latest", "windows-2022", "macos-11"]
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12", "pypy-3.7"]
     env:
       BABEL_CLDR_NO_DOWNLOAD_PROGRESS: "1"
